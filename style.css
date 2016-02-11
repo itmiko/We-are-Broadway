@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #333333;
+}
+
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.nav{
+    margin: 0;
+    padding: 20px 0;
+}
+
+.nav li{
+    display: inline;
+    margin-right: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.nav li a{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.jumbotron{
+    height:800px;
+    background:url(https://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
